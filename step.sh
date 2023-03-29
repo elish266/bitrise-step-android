@@ -1,5 +1,5 @@
 #!/bin/bash
-set -ex
+# set -ex
 
 # echo "This is the value specified for the input 'example_step_input': ${example_step_input}"
 
@@ -40,10 +40,7 @@ else
 	app_file=$app_location
 fi
 
-echo $app_location
-echo $app_file
 mkdir output
-
 certificate_output=../output/certificate.pdf
 output=../output/Appdome_$(basename $app_file)
 
